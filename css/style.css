@@ -1,43 +1,96 @@
 body {
-	background-color: teal;
+	background-color: wheat;
 	font-family: Arial, Helvetica, sans-serif;
-	color: white;
+	color: black;
 }
 
 h1 {
 	font-style: italic;
-	font-size: 50px;
+	font-size: 45px;
+}
+
+h2 {
+	font-size: 30px;
 }
 
 a {
-	color: blue;
 	font-weight: bolder;
 }
 
-.intro {
-
+a:hover {
+	text-decoration: none;
 }
 
-.basics {
-
+.nav-wrapper {
+	padding-left: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: grey;
+	padding-top: 0px;
 }
 
-.contact {
-
+.nav-wrapper #ex {
+	color:white;
+	float: left;
 }
 
-.goals {
-
+.nav-wrapper #scruz {
+	color:wheat;
+	float: left;
 }
 
-.exp {
-
+.nav-wrapper #me {
+	color:white;
+	float: left;
 }
 
-.skills {
-
+.nav-wrapper ul #link1 a:hover {
+	color:blanchedalmond;
 }
 
-.hob {
+.nav-wrapper ul #link2 a:hover {
+	color:turquoise;
+}
 
+.nav-wrapper ul #link3 a:hover {
+	color:magenta;
+}
+
+.nav-wrapper ul #link4 a:hover {
+	color:yellow;
+}
+
+.content {
+	font-size: 20px;
+	text-align: right;
+}
+
+.content ul li {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+
+#Steph img{
+	padding-top: 20px;
+	width: 400px;
+	float:left;
+}
+
+.row {
+}
+
+#MichIMG img {
+	width: 400px;
+	float:right;
+	text-align: text-bottom;
+}
+
+#UFIMG img {
+	width: 400px;
+	float:right;
+	text-align: text-bottom;
+}
+
+.material-icons {
+	font-size = 50px;
 }
