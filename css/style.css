@@ -6,8 +6,9 @@ body {
 }
 
 .col-xs-12 {
-	padding-left: 5cm;
-	width: 800px;
+	margin-left: 60px;
+	padding-left: 25px;
+	width: 700px;
 }
 
 h1 {
@@ -21,10 +22,12 @@ h2 {
 
 a {
 	font-weight: bolder;
+	color: #2200CC;
 }
 
 a:hover {
 	text-decoration: none;
+	color:grey;
 }
 
 .nav-wrapper {
@@ -102,13 +105,24 @@ a:hover {
 }
 
 #tennisIMG img {
-	width: 500px;
+	width: 278px;
+	float:left;
+}
+
+#tennisIMG2 img {
+	width: 352px;
 }
 
 #climbIMG img {
-	width: 500px;
+	width:386px;
+	float:left;
 }
 
-.material-icons {
-	font-size = 50px;
+#climbIMG2 img {
+	width:264px;
+}
+
+#exscruzmeIMG img{
+	padding-top: 20px;
+	width:700px;
 }
