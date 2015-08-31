@@ -1,14 +1,8 @@
+/* This is my custom css file */
 body {
 	background-color: wheat;
 	font-family: Arial, Helvetica, sans-serif;
 	color: black;
-
-}
-
-.col-xs-12 {
-	margin-left: 60px;
-	padding-left: 25px;
-	width: 700px;
 }
 
 h1 {
@@ -36,6 +30,8 @@ a:hover {
 	padding-top: 0px;
 }
 
+/* Using the span in html to change color of 
+different parts of word 'exscruzme'*/
 .nav-wrapper #ex {
 	color:white;
 	float: left;
@@ -51,6 +47,8 @@ a:hover {
 	float: left;
 }
 
+/* Customizing hover color of 
+each link in navbar */
 .nav-wrapper ul #link1 a:hover {
 	color:blanchedalmond;
 }
@@ -81,15 +79,25 @@ a:hover {
 	list-style-position: inside;
 }
 
+/* Adjusting Bootstrap's original grid
+system to change size of my columns */
+.col-xs-12 {
+	margin-left: 60px;
+	padding-left: 25px;
+	width: 700px;
+}
 
+/* Specific formatting for intro section */
+#intro ul li{
+	list-style-type: none;
+}
+
+/* Following blocks are specific formatting
+for each image */
 #Steph img{
 	padding-top: 20px;
 	width: 400px;
 	float:left;
-}
-
-#intro ul li{
-	list-style-type: none;
 }
 
 #MichIMG img {
@@ -126,6 +134,8 @@ a:hover {
 	padding-top: 20px;
 	width:700px;
 }
+
+/* Centering footer */
 #footer footer{
 	padding-top:100px;
 	text-align: center;

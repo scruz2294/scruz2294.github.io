@@ -1,23 +1,35 @@
 <html>
 
-<!--This is a comment-->
-
 <head>
 	<!--This is the tab title-->
 	<title>
-	About
+	Stephanie Cruz's Personal Webpage
 	</title>
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- Latest compiled and minified JavaScript 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> --> 
 
 	<!-- Materialize -->
+	<!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
 
+  <!-- Materialize Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Want main library ABOVE any customized thing -->
+  <!-- This is my customized css -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
-	<!--Want main libarary ABOVE any customized thing-->
+
+  <!-- Load jquery -->
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	
+  <!-- Compiled and minified JavaScript (Materialize) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+
+  <!-- Custom javascript -->
+  <script src="content.js"></script>
 
 </head>
 
@@ -32,7 +44,19 @@
 	      <span id = "scruz">scruz</span>
 	      <span id = "me">me</span>
 	      </a>
-	      <ul id="nav-mobile" class="left hide-on-med-and-down">
+
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+	      <!-- Fullscreen Navbar -->
+	      <ul class="left hide-on-med-and-down">
+	        <li id = "link1"><a href="index.html">HOME</a></li>
+	        <li id = "link2"><a href="career.html">CAREER</a></li>
+	        <li id = "link3"><a href="media.html">MEDIA</a></li>
+	        <li id = "link4"><a href="about.html">ABOUT</a></li>
+	      </ul>
+
+	      <!-- Mobile Collapse of Navbar -->
+	      <ul class="side-nav" id="mobile-demo">
 	        <li id = "link1"><a href="index.html">HOME</a></li>
 	        <li id = "link2"><a href="career.html">CAREER</a></li>
 	        <li id = "link3"><a href="media.html">MEDIA</a></li>
@@ -63,8 +87,8 @@
   	<li> National Championship Runners-Up | 2013, 2014 </li>
   </ul>
 
-  <div id = "tennisIMG"><img src = "img/tennis.jpg" alt = "tennis"></div>
-  <div id = "tennisIMG2"><img src = "img/tennis2.jpg" alt = "tennis"></div>
+  <div id = "tennisIMG"><a href="img/tennis.jpg"><img src = "img/tennis.jpg" alt = "tennis"></a></div>
+  <div id = "tennisIMG2"><a href="img/tennis2.jpg"><img src = "img/tennis2.jpg" alt = "tennis"></a></div>
   <br/>
 
 
@@ -84,8 +108,8 @@
   	<li> The Edge Rock Gym | Jacksonville, FL </li>
   </ul>
 
-  <div id = "climbIMG"><img src = "img/climb2.jpg" alt = "climbing"></div>
-  <div id = "climbIMG2"><img src = "img/climb.jpg" alt = "climbing"></div>
+  <div id = "climbIMG"><a href="img/climb2.jpg"><img src = "img/climb2.jpg" alt = "climbing"></a></div>
+  <div id = "climbIMG2"><a href="img/climb.jpg"><img src = "img/climb.jpg" alt = "climbing"></a></div>
 
   </div>
   </div>
