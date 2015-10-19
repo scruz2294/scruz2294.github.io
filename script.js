@@ -27,6 +27,8 @@
 
   recognition.onend = function() {
     recognizing = false;
+    loadText(msg2,2,1,3);
+    sayText(msg2,2,1,3)
   }
 
   startRecord = function(event) {
@@ -38,3 +40,6 @@
       recognition.start();
     }
   }
+
+  var msg2 = "Hi, how are you?";
+
