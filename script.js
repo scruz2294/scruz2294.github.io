@@ -3,6 +3,7 @@
 
   var final_transcript = '';
   var recognizing = false;
+  var msg2 = "Hi, how are you?";
 
   recognition.continuous = true;
   recognition.interimResults = true;
@@ -27,8 +28,8 @@
 
   recognition.onend = function() {
     recognizing = false;
-    loadText(msg2,2,1,3);
-    sayText(msg2,2,1,3)
+    // loadText(msg2,2,1,3);
+    // sayText(msg2,2,1,3)
   }
 
   startRecord = function(event) {
@@ -40,6 +41,4 @@
       recognition.start();
     }
   }
-
-  var msg2 = "Hi, how are you?";
 
