@@ -43,7 +43,7 @@
 	<nav>
 	    <div class="nav-wrapper">
 	      <!-- Easter Egg -->
-	      <a href="exscruzme.html" class="brand-logo center" title = "click me!">
+	      <a href="exscruzme.html" class="brand-logo right" title = "click me!">
 	      <span id = "ex">ex</span>
 	      <span id = "scruz">scruz</span>
 	      <span id = "me">me</span>
@@ -53,74 +53,110 @@
 
 	      <!-- Fullscreen Navbar -->
 	      <ul class="left hide-on-med-and-down">
-	        <li id = "link1"><a href="index.html">HOME</a></li>
-	        <li id = "link2"><a href="career.html">CAREER</a></li>
-	        <li id = "link3"><a href="media.html">MEDIA</a></li>
-	        <li id = "link4"><a href="about.html">ABOUT</a></li>
+	        <li id = "link1"><a class="page-scroll" href="#home">HOME</a></li>
+	        <li id = "link2"><a class="page-scroll" href="#career">CAREER</a></li>
+	        <li id = "link3"><a class="page-scroll" href="#projects">PROJECTS</a></li>
+	        <li id = "link4"><a class="page-scroll" href="#about">ABOUT</a></li>
+		  	<li id = "link5"><a class="page-scroll" href="#contact">CONTACT</a></li>
 	      </ul>
 
 	      <!-- Mobile Collapse of Navbar -->
 	      <ul class="side-nav" id="mobile-demo">
-	        <li id = "link1"><a href="index.html">HOME</a></li>
-	        <li id = "link2"><a href="career.html">CAREER</a></li>
-	        <li id = "link3"><a href="media.html">MEDIA</a></li>
-	        <li id = "link4"><a href="about.html">ABOUT</a></li>
+	        <li id = "link1"><a class="page-scroll" href="#home">HOME</a></li>
+	        <li id = "link2"><a class="page-scroll" href="#career">CAREER</a></li>
+	        <li id = "link3"><a class="page-scroll" href="#projects">PROJECTS</a></li>
+	        <li id = "link4"><a class="page-scroll" href="#about">ABOUT</a></li>
+		  	<li id = "link5"><a class="page-scroll" href="#contact">CONTACT</a></li>
 	      </ul>
 	    </div>
 	  </nav>
 
 <!-- Custom Content class used to style content in my css -->
 <div class = "content">
-<!-- Using Bootstrap's grid system for 2 columns @ http://getbootstrap.com/css/#grid -->
-<!-- BEGIN ROW 1 -->
-<div class="row">
-
-  <!-- BEGIN FIRST COLUMN -->
-  <div class="col-xs-12 col-sm-6 col-md-8">
-
-  	<!--Introduction-->
-	<div id = "intro" class = "content">
-		<h1> Stephanie Cruz </h1>
-
-		<ul>
-			<li> <b>Hometown:</b> Palm Harbor, FL </li>
-			<li> <b>Education:</b> University of Florida </li>
-			<li> <b>Degree:</b> B.S. Computer Science </li>
-			<li> <b>Minor:</b> Business Administration</li>
-			<li> <b>Expected Graduation:</b> Spring 2016</li>
-			<br/>
-		</ul>
-		
-		<p>
-		Hi! My name is Stephanie, and this is my personal webpage. Initially, I am creating this web page for submission as an assignment in my Intro to Software Engineering course, with Dr. Christina Gardner-McCune. I hope you find my page interesting, and that you explore the site, and me, a little bit more. Click on the links above to navigate to the different sections of my page. 
-		<br/><br/>
-		</p>
-		<br>
-
+<!-- START JUMBOTRON -->
+	<div class="row header-row">
+		<div class="jumbotron jumbo-custom">
+			<div class="container">
+				<div class="col-md-7">
+					<div class="container header-text">
+						<p>Hey! This is my personal web page. On this page, I will document some of my life experiences, career steps, and more.
+							Scroll down to see more!</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-md-offset-4 header-img">
+					<div class="container header-img">
+						<img src = "img/background.png" alt = "Stephanie Cruz" title = "Stephanie Cruz">
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
-  </div>
-  <!-- END FIRST COLUMN -->
-
-
-  <!-- BEGIN SECOND COLUMN -->
-  <!-- Gator Chomp photo for second column -->
-  <div class="col-xs-6 col-md-4">
-
-  		<div id = "Steph"> 
-		<img src = "img/background.png" alt = "Stephanie Cruz" title = "Stephanie Cruz"> 
+	<div class="col-md-2 col-md-offset-5">
+		<div class="container">
+			<a href="#career" class="btn btn-circle page-scroll">
+				<span>&#9660;</span>
+			</a>
 		</div>
+	</div>
+	<!-- END JUMBOTRON -->
 
-  </div>
-  <!-- END SECOND COLUMN -->
+	<!-- Career Section -->
+	<section id="career" class="container content-section text-center">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h2>About Grayscale</h2>
+				<p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+				<p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+				<p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+			</div>
+		</div>
+	</section>
+	<!-- END CAREER Section -->
 
+	<!-- Projects Section -->
+	<section id="projects" class="container content-section text-center">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h2>About Grayscale</h2>
+				<p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+				<p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+				<p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+			</div>
+		</div>
+	</section>
+	<!-- END PROJECTS Section -->
 
+	<!-- About Section -->
+	<section id="about" class="container content-section text-center">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h2>About Grayscale</h2>
+				<p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+				<p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+				<p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+			</div>
+		</div>
+	</section>
+	<!-- END ABOUT Section -->
+
+	<!-- Contact Section -->
+	<section id="contact" class="container content-section text-center">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h2>About Grayscale</h2>
+				<p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+				<p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+				<p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+			</div>
+		</div>
+	</section>
+	<!-- END CONTACT Section -->
 
 </div>
-</div>
-<!-- END ROW 1 -->
+<!-- END CONTENT -->
 
-<div id = "footer"><footer>&copy; Copyright Stephanie Cruz 2015</footer></div>
+<div id = "footer"><footer>&copy; Copyright Stephanie Cruz 2017</footer></div>
 
 </body>
 </html>
